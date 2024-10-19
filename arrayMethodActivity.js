@@ -23,7 +23,7 @@ console.log("Array2 after shift:", array2);
 
 
 fruits.sort();
-console.log("Fruits after sort:", fruits)
+console.log("Fruits after sort:", fruits);
 
 
 const slicedFruits = fruits.slice(1, 3);
@@ -31,4 +31,4 @@ console.log("liced fruits:", slicedFruits);
 
 const months = ["January", "February", "March", "April"]
 months.splice(2, 1, "March", "May");
-console.log("Months after splice:", months)
+console.log("Months after splice:", months);
